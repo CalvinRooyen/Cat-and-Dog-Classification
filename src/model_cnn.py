@@ -1,3 +1,5 @@
+import torch.nn as nn
+
 class MyCNN(nn.Module):
     def __init__(self):
         super(MyCNN, self).__init__()
